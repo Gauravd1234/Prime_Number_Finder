@@ -22,8 +22,6 @@ def prime_check(num):
                
     print(prime_list)
     print("\n")
-    print(len(prime_list))
-    print(sum(prime_list))
     end = time.time()
     print("Time taken: " + str(end - start) + " seconds")
     return ""
@@ -31,4 +29,5 @@ def prime_check(num):
 print(prime_check(100000))
     
 
-#Takes about 9 seconds if you put 100000
+#Takes about 4.5 seconds if you put 100000
+#Cannot run after inputs greater than 1000000
